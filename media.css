@@ -192,9 +192,7 @@
   .trending-icons {
     justify-self: end;
   }
-  .header-icons:active {
-    outline: none;
-  }
+
   .search-bar > span::selection,
   .header-icons::selection,
   aside span:not(:nth-of-type(1))::selection,
