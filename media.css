@@ -47,6 +47,14 @@
   .avatar-one {
     width: 30px;
     height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .avatar-one:hover {
+    transform: translateX(27px);
+  }
+  .avatar-one:active {
+    transform: translateX(27px) scale(1.2);
   }
   .header-row:nth-child(2) span {
     font-size: 1.1rem;
@@ -104,7 +112,6 @@
     gap: 10px;
     width: 100%;
     padding: 10px 5px 10px 20px;
-    /* justify-items: end; */
   }
   aside .side-icon {
     grid-row: 1 / 4;
