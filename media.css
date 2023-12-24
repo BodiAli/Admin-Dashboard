@@ -192,4 +192,15 @@
   .trending-icons {
     justify-self: end;
   }
+  .search-bar > span::selection,
+  .header-icons::selection,
+  aside span:not(:nth-of-type(1))::selection,
+  .side-icons::selection,
+  button::selection,
+  .card .card-icon::selection,
+  .trending-icons::selection,
+  .at::selection,
+  .header-row:nth-child(2) span::selection {
+    display: none;
+  }
 }
