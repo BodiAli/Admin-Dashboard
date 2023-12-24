@@ -77,7 +77,6 @@ svg.moon {
 }
 svg.moon:active {
   transform: scale(1.1);
-  outline: none;
 }
 svg.bell {
   cursor: pointer;

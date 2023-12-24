@@ -205,6 +205,6 @@
     display: none;
   }
   * {
-    /* -webkit-tab-highlight-color: transparent; */
+    -webkit-tap-highlight-color: transparent;
   }
 }
